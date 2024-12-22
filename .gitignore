@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+unittests.cfg
+webserver_config.py
+
+# Virtual Environment
+airflow_env/
+env/
+
+# IDEs
+.vscode/
+.idea/
