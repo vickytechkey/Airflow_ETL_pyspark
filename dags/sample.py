@@ -8,7 +8,7 @@ from python_functions.delete_folder import delete_folder
 default_args = {
     'owner':'airflow',
     'depends_on_past':False,
-    'start_date':datetime(2023,1,1),
+    'start_date':datetime(2024,12,21),
     'email_on_failure':False,
     'email_on_retry':False,
     'retries' : 1,
@@ -45,7 +45,6 @@ task_3  = PythonOperator(
     python_callable=Load_male_students,
     dag = dag,
     provide_context = True
-    
 )
 
 
